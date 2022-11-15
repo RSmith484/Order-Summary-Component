@@ -1,0 +1,124 @@
+/* ---- Global Styles --- */
+body {
+    background-image: url("./images/pattern-background-desktop.svg");
+    background-color: hsl(225, 100%, 94%);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.container { 
+    justify-items: center;
+    background-color: white;
+    border-radius: 16px;
+    margin: 100px auto;
+    width: 450px;
+    padding: 0px;
+}
+
+.container img {
+    border-radius: 10px 10px 0 0;
+}
+
+/* ---- Main Section --- */
+
+.main {
+    padding: 20px;
+}
+
+.main h1 {
+    text-align: center;
+    font-size: 24px;
+}
+
+.main p {
+    text-align: center;
+    color: hsl(224, 23%, 55%);
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+/* ---- Pricing Section ---- */
+
+.pricing {
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 10px;
+    margin: 0px 35px 0px 35px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+}
+
+.pricing div {
+    padding: 0px 20px 0px 10px;
+    line-height: 0.5;
+}
+
+.pricing a {
+    text-align: right;
+}
+
+.pricing #pricing-link {
+    text-align: right;
+    padding-left: 50px;
+}
+
+/* ---- Buttons Section ---- */
+
+.btns {
+    margin: 20px;
+    padding: 20px;
+}
+
+button {
+    border: none;
+    border-radius: 15px;
+    padding: 20px 32px;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    display:block;
+    font-size: 18px;
+    font-family: 'Red Hat Display', sans-serif;
+    justify-items: center;
+    align-items: center;
+}
+
+.proceed-btn {
+    background-color: hsl(245, 75%, 52%);
+    color: #fff;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.cancel-btn {
+    background-color: hsl(225, 100%, 98%);
+    color: hsl(224, 23%, 55%);
+}
+
+/* ---- Active States ---- */
+
+.pricing a:hover {
+    text-decoration: none;
+    color: hsl(273, 47%, 59%);
+}
+
+.proceed-btn:hover {
+    background-color: hsl(273, 47%, 59%);
+}
+
+.cancel-btn:hover {
+    color: hsl(223, 47%, 23%);
+}
+
+/* ---- Footer ---- */
+
+footer { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+footer a { 
+    color: hsl(228, 45%, 44%); 
+}
